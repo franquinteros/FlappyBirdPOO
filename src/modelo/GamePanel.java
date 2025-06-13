@@ -354,6 +354,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
         tiempoUltimaFruta = 0; // Reinicia el tiempo para la primera fruta
         repaint();
         System.out.println("Juego Reiniciado.");
+        reproducirMusicaFondo();
     }
 
     private void guardarPuntaje() {
